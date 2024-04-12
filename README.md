@@ -1,7 +1,7 @@
-<h2 align="center">
-  <br>
-  <a href="https://github.com/mrl"><img src="" alt="AtWork" width="400"></a>
-  <br>
+<br />
+<div align="center">
+<img align="center" height="300" width="450" alt="gif" src="https://github.com/Awrsha/MRL-AtWork-Robotics-Team/assets/89135083/0d22c6f7-2f45-4005-8211-913108678949"/></div>
+<br />
   <b><h4 align="center">.:: Industrial Robots | MRL-AtWork ::.</h4></b>
   <br>
 </h2>
