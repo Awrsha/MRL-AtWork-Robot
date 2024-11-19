@@ -1,4 +1,6 @@
-# 🤖 MRL-AtWork Industrial Robotics Platform
+<div align="center">
+  <h1>🤖 MRL-AtWork Industrial Robotics Platform</h1>
+</div>
 
 <div align="center">
   <img src="https://img.shields.io/badge/ROS-Melodic-blue?style=for-the-badge&logo=ros&logoColor=white">
