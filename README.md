@@ -54,27 +54,6 @@
 - 🏭 Factory Automation
 - 🔧 Industrial Process Control
 
-## 📁 Project Structure
-
-```
-MRL-AtWork/
-├── Core Components/
-│   ├── AtWork Commander/
-│   ├── Central Factory Hub/
-│   ├── Refbox Communication/
-│   └── ROS Client/
-├── Vision Systems/
-│   ├── Face Direction/
-│   ├── Object Detection/
-│   └── Object Placement/
-├── Tools/
-│   ├── Utilities/
-│   └── Development Kit/
-└── Documentation/
-    ├── RuleBook/
-    └── Technical Specs/
-```
-
 ## 🛠 Core Components
 
 ### Factory Automation Suite
