@@ -1,50 +1,124 @@
+# 🤖 MRL-AtWork Industrial Robotics Platform
+
+<div align="center">
+  <img src="https://img.shields.io/badge/ROS-Melodic-blue?style=for-the-badge&logo=ros&logoColor=white">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white">
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+</div>
+
 <br />
 <div align="center">
 <img align="center" height="300" width="450" alt="gif" src="https://github.com/Awrsha/MRL-AtWork-Robotics-Team/assets/89135083/0d22c6f7-2f45-4005-8211-913108678949"/></div>
 <br />
   <b><h4 align="center">.:: Industrial Robots | MRL-AtWork ::.</h4></b>
-  <br>
-</h2>
 
-## Languages
+## 📚 Table of Contents
+- [About MRL](#about-mrl)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Core Components](#core-components)
+- [Advanced Tools](#advanced-tools)
+- [Installation](#installation)
+- [Documentation](#documentation)
+- [Contributing](#contributing)
+- [License](#license)
 
-<code>
-<img align="center" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/python/python-original.svg" width="40" height="40" /><img align="center" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/vscode/vscode-original.svg" width="40" height="40"/><img align="center" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/numpy/numpy-original.svg" width="40" height="40"/><img align="center" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/opencv/opencv-original.svg" width="40" height="40" /><img align="center" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/pycharm/pycharm-original.svg" width="40" height="40"/><img align="center" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/qt/qt-original.svg" width="40" height="40" /><img align="center" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/pytorch/pytorch-original.svg" width="40" height="40" /><img align="center" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/pandas/pandas-original.svg" width="40" height="40" /><img align="center" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/anaconda/anaconda-original.svg" width="40" height="40" /><img align="center" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/jupyter/jupyter-original.svg" width="40" height="40" /><img align="center" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/gcc/gcc-original.svg" width="40" height="40" />
-</code>
+## 🏢 About MRL 
 
+> The Mechatronics Research Laboratory (MRL) at Islamic Azad University, Qazvin branch has been at the forefront of robotics research since 2003. With 11 specialized laboratories and a team of distinguished researchers and professors, MRL has established itself as a national scientific research pole, earning numerous accolades in domestic and international competitions.
 
-## Description
+<details>
+<summary>Click to expand MRL achievements</summary>
 
-The MRL project was started in 2003 in the Mechatronics Research Laboratory in Islamic Azad University, Qazvin branch looking onward to enhance the knowledge of robotics and the MRL AtWork league is aimed to develop a Industrial platform for research and education. MRL has had a successful history in RoboCup for many years.
+- 🏆 Multiple RoboCup championships
+- 🔬 11 specialized research laboratories
+- 🎓 Collaboration with leading robotics experts
+- 🌟 Recognition as national scientific research center
+</details>
 
-* About Mechatronic Research Laboratory (MRL) :
+## ✨ Features
 
-> The Mecatronic research center of the Islamic Azad University of Qazvin began its activity in 2003 with a laboratory. There are currently 11 laboratories in the center. Due to the wide scope of the laboratories, the number of researchers, the presence of professors, the value of advanced laboratory equipment, the quality and quantity of laboratory space and the numerous honors gained in domestic and international international competitions, this series has been selected as the country’s scientific research pole.
+### Core Capabilities
+- 🤖 Industrial Robot Control
+- 🧠 Advanced Computer Vision
+- 📊 Real-time Process Monitoring
+- 🛠️ Task Planning & Execution
+- 🔄 Automated Manufacturing
 
-## Directory Structure
+### Research Areas
+- 🎯 Object Detection & Recognition
+- 👤 Face Direction Analysis
+- 📍 Object Placement Optimization
+- 🏭 Factory Automation
+- 🔧 Industrial Process Control
 
-### Tasks
+## 📁 Project Structure
 
-- *
+```
+MRL-AtWork/
+├── Core Components/
+│   ├── AtWork Commander/
+│   ├── Central Factory Hub/
+│   ├── Refbox Communication/
+│   └── ROS Client/
+├── Vision Systems/
+│   ├── Face Direction/
+│   ├── Object Detection/
+│   └── Object Placement/
+├── Tools/
+│   ├── Utilities/
+│   └── Development Kit/
+└── Documentation/
+    ├── RuleBook/
+    └── Technical Specs/
+```
 
-### Projects
+## 🛠 Core Components
 
-- *
+### Factory Automation Suite
+  - Sydney-2019 Implementation
+  - Documentation & Specifications
+  - Control Interface
+  - Task Management
+  - Refbox Communication
+  - ROS Client Integration
 
-### Advanced Projects and Tools
+### Vision Systems
+  - Real-time Processing
+  - Multi-angle Detection
+  - Industrial Part Recognition
+  - Quality Control
+  - Precision Positioning
+  - Spatial Optimization
 
-- *
+## 🔧 Installation
 
-## Usage
+```bash
+# Clone the repository
+git clone https://github.com/mrl-atwork/MRL-AtWork-Robot.git
 
-Each directory contains specific projects or tasks. Navigate to the desired directory to explore the associated files and source codes.
+# Navigate to project directory
+cd MRL-AtWork-Robot
 
-## Contributions
+# Install dependencies
+./install_dependencies.sh
 
-Contributions are welcome! If you have any improvements, bug fixes, or additional projects/tasks to add, feel free to fork this repository and submit a pull request.
+# Build the project
+catkin_make
+```
 
-## License
+## 🤝 Contributing
 
-This repository is licensed under the [MIT License](LICENSE). Feel free to use the source codes and projects for your own purposes.
+We welcome contributions! Please follow these steps:
 
-<p align="center"><img height="27" src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" alt="Github Stats" /></p>
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
